@@ -8,7 +8,7 @@ export default function Navbar(){
    
     return(
         <nav className="flex flex-col items-start gap-5 font-extralight md:flex-row md:justify-between md:items-center bg-slate-900 text-white px-10 py-5 sticky top-0">
-            <Link to='/' className="text-3xl hover:bg-slate-700 px-3 py-1 rounded md:text-5xl" onClick={() => setMenuOpen(false)}>John O'Brien</Link>
+            <Link to='/' className="text-3xl md:hover:scale-110 duration-150 px-3 py-1 rounded md:text-5xl" onClick={() => setMenuOpen(false)}>John O'Brien</Link>
             
                 <div className="text-2xl md:hidden cursor-pointer absolute top-5 right-5" onClick={() => setMenuOpen(!menuOpen)}>
                     <RxHamburgerMenu />
