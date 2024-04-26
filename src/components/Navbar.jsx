@@ -7,7 +7,7 @@ export default function Navbar(){
    const [menuOpen, setMenuOpen] = useState(false);
    
     return(
-        <nav className="flex flex-col items-start gap-5 font-extralight md:flex-row md:justify-between md:items-center bg-slate-900 text-white px-2 md:px-10 py-5 sticky top-0">
+        <nav className="flex flex-col items-start gap-5 font-extralight py-5 px-2  bg-slate-900 text-white sticky top-0 md:flex-row md:justify-between md:items-center md:px-10 ">
             <Link to='/' className="text-3xl md:hover:scale-110 duration-150 px-3 py-1 rounded md:text-5xl" onClick={() => setMenuOpen(false)}>John O'Brien</Link>
             
                 <div className="text-2xl md:hidden cursor-pointer absolute top-5 right-5" onClick={() => setMenuOpen(!menuOpen)}>
