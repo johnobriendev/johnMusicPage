@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
-    <div className='flex flex-col justify-between relative'>
+    <div className='relative'>
       <Navbar />
       <Outlet />
       <Footer/>
